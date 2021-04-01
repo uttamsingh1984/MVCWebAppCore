@@ -20,6 +20,7 @@ namespace MVCWebApp.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.MachineName= "";
             return View();
         }
 
